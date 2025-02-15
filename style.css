@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.card_image {
+  width: 95px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.name {
+  margin: 30px 0 10px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.live {
+  color: hsl(75, 94%, 57%);
+}
+h5 {
+  color: hsl(0, 8%, 83%);
+  margin: 25px 0 20px 0;
+}
+.btn {
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+  min-width: 18rem;
+  height: 3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
