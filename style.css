@@ -10,15 +10,19 @@
 body {
   height: 100vh;
   background-color: hsl(0, 0%, 8%);
+}
+section {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .card {
   background-color: hsl(0, 0%, 12%);
-  min-width: 350px;
+  max-width: fit-content;
+  margin: auto;
+  padding: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
